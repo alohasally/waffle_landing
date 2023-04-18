@@ -1,76 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <!-- Head -->
+  <head>
+    <!-- Page Meta Tags-->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
 
-<!-- Head -->
-<head>
-  <!-- Page Meta Tags-->
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <meta name="keywords" content="" />
+    <!-- Favicon -->
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/images/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="/assets/images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
-  <!-- Favicon -->
-  <!-- Favicon -->
-  <link
-    rel="apple-touch-icon"
-    sizes="180x180"
-    href="./assets/images/favicon/apple-touch-icon.png"
-  />
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="32x32"
-    href="./assets/images/favicon/favicon-32x32.png"
-  />
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="16x16"
-    href="./assets/images/favicon/favicon-16x16.png"
-  />
-  <link
-    rel="mask-icon"
-    href="./assets/images/favicon/safari-pinned-tab.svg"
-    color="#5bbad5"
-  />
-  <meta name="msapplication-TileColor" content="#da532c" />
-  <meta name="theme-color" content="#ffffff" />
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="/assets/css/libs.bundle.css" />
 
-  <!-- Vendor CSS -->
-  <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/assets/css/theme.bundle.css" />
 
-  <!-- Main CSS -->
-  <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/assets/css/comm.bundle.css" />
 
-  <!-- Main CSS -->
-  <link rel="stylesheet" href="./assets/css/comm.bundle.css" />
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 
-  <!-- Icon -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-  />
-
-  <!-- Fix for custom scrollbar if JS is disabled-->
-  <noscript>
-    <style>
-      /**
+    <!-- Fix for custom scrollbar if JS is disabled-->
+    <noscript>
+      <style>
+        /**
         * Reinstate scrolling for non-JS clients
         */
-      .simplebar-content-wrapper {
-        overflow: auto;
-      }
-    </style>
-  </noscript>
+        .simplebar-content-wrapper {
+          overflow: auto;
+        }
+      </style>
+    </noscript>
 
-  <!-- Page Title -->
-  <title>Waffle</title>
-</head>
+    <!-- Page Title -->
+    <title>Waffle</title>
+  </head>
 
-<body class="">
-
+  <body class="">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
       <div class="container">
@@ -143,7 +141,7 @@
           <span class="fw-bold text-body"></span>
         </a>
         <!-- / Logo-->
-    
+
         <!-- Mobile Menu Btn-->
         <button
           class="navbar-toggler"
@@ -157,7 +155,7 @@
           <i class="ri-menu-line"></i>
         </button>
         <!-- /Mobile Menu Btn-->
-    
+
         <div
           class="collapse navbar-collapse justify-content-between align-items-center"
           id="navbarSupportedContent"
@@ -180,226 +178,306 @@
                   <!-- Dropdown Menu Links Section-->
                   <div class="row py-lg-4 gx-8">
                     <div class="row py-lg-2 gx-8">
-                    <!-- 자산관리 menu row-->
-                    <div
-                      class="col-auto me-4 mb-4 me-lg-0 mb-lg-0 col-lg-4 d-flex align-items-start"
-                    >
-                      <span class="f-w-16 d-block text-primary me-4 d-none d-lg-flex">
-                        <svg
-                          class="w-100"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                      <!-- 자산관리 menu row-->
+                      <div
+                        class="col-auto me-4 mb-4 me-lg-0 mb-lg-0 col-lg-4 d-flex align-items-start"
+                      >
+                        <span
+                          class="f-w-16 d-block text-primary me-4 d-none d-lg-flex"
                         >
-                          <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
-                          <polyline points="2 17 12 22 22 17"></polyline>
-                          <polyline opacity=".4" points="2 12 12 17 22 12"></polyline>
-                        </svg>
-                      </span>
-                      <div class="position-relative">
-                        <h6 class="dropdown-heading">자산관리</h6>
-                        <p class="text-muted">
-                          와플의 자산 관리는 구매, 관리하는 유·무형자산 및 각종 비품, 소모품을 관리합니다. 
-                        </p>
-                        <a href="./asset.html" class="fw-medium fs-7 text-decoration-none link-cover"
-                          >더 보기 &rarr;</a
-                        >
+                          <svg
+                            class="w-100"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <polygon
+                              points="12 2 2 7 12 12 22 7 12 2"
+                            ></polygon>
+                            <polyline points="2 17 12 22 22 17"></polyline>
+                            <polyline
+                              opacity=".4"
+                              points="2 12 12 17 22 12"
+                            ></polyline>
+                          </svg>
+                        </span>
+                        <div class="position-relative">
+                          <h6 class="dropdown-heading">자산관리</h6>
+                          <p class="text-muted">
+                            와플의 자산 관리는 구매, 관리하는 유·무형자산 및
+                            각종 비품, 소모품을 관리합니다.
+                          </p>
+                          <a
+                            href="./asset.html"
+                            class="fw-medium fs-7 text-decoration-none link-cover"
+                            >더 보기 &rarr;</a
+                          >
+                        </div>
                       </div>
-                    </div>
-                    <!-- /자산관리 menu row-->
-                  
-                    <!-- 구매 menu row-->
-                    <div
-                      class="col-auto me-4 mb-4 me-lg-0 mb-lg-0 col-lg-4 d-flex align-items-start"
-                    >
-                      <span class="f-w-16 d-block text-primary me-4 d-none d-lg-flex">
-                        <svg
-                          class="w-100"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                      <!-- /자산관리 menu row-->
+
+                      <!-- 구매 menu row-->
+                      <div
+                        class="col-auto me-4 mb-4 me-lg-0 mb-lg-0 col-lg-4 d-flex align-items-start"
+                      >
+                        <span
+                          class="f-w-16 d-block text-primary me-4 d-none d-lg-flex"
                         >
-                          <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
-                          <rect opacity=".3" x="9" y="9" width="6" height="6"></rect>
-                          <line x1="9" y1="1" x2="9" y2="4"></line>
-                          <line x1="15" y1="1" x2="15" y2="4"></line>
-                          <line x1="9" y1="20" x2="9" y2="23"></line>
-                          <line x1="15" y1="20" x2="15" y2="23"></line>
-                          <line x1="20" y1="9" x2="23" y2="9"></line>
-                          <line x1="20" y1="14" x2="23" y2="14"></line>
-                          <line x1="1" y1="9" x2="4" y2="9"></line>
-                          <line x1="1" y1="14" x2="4" y2="14"></line>
-                        </svg>
-                      </span>
-                      <div class="position-relative">
-                        <h6 class="dropdown-heading">구매</h6>
-                        <p class="text-muted">
-                          구매 품목, 공급사 관리,발주관리, 납품관리, 정산 등 구매하는 전체 프로세스를 원스톱으로 제공합니다.
-                        </p>
-                        <a href="./purchase.html" class="fw-medium fs-7 text-decoration-none link-cover"
-                          >더 보기 &rarr;</a
-                        >
+                          <svg
+                            class="w-100"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <rect
+                              x="4"
+                              y="4"
+                              width="16"
+                              height="16"
+                              rx="2"
+                              ry="2"
+                            ></rect>
+                            <rect
+                              opacity=".3"
+                              x="9"
+                              y="9"
+                              width="6"
+                              height="6"
+                            ></rect>
+                            <line x1="9" y1="1" x2="9" y2="4"></line>
+                            <line x1="15" y1="1" x2="15" y2="4"></line>
+                            <line x1="9" y1="20" x2="9" y2="23"></line>
+                            <line x1="15" y1="20" x2="15" y2="23"></line>
+                            <line x1="20" y1="9" x2="23" y2="9"></line>
+                            <line x1="20" y1="14" x2="23" y2="14"></line>
+                            <line x1="1" y1="9" x2="4" y2="9"></line>
+                            <line x1="1" y1="14" x2="4" y2="14"></line>
+                          </svg>
+                        </span>
+                        <div class="position-relative">
+                          <h6 class="dropdown-heading">구매</h6>
+                          <p class="text-muted">
+                            구매 품목, 공급사 관리,발주관리, 납품관리, 정산 등
+                            구매하는 전체 프로세스를 원스톱으로 제공합니다.
+                          </p>
+                          <a
+                            href="./purchase.html"
+                            class="fw-medium fs-7 text-decoration-none link-cover"
+                            >더 보기 &rarr;</a
+                          >
+                        </div>
                       </div>
-                    </div>
-                    <!-- /구매 menu row-->
-                  
-                    <!-- 계약관리 menu row-->
-                    <div
-                      class="col-auto me-4 mb-4 me-lg-0 mb-lg-0 col-lg-4 d-flex align-items-start"
-                    >
-                      <span class="f-w-16 d-block text-primary me-4 d-none d-lg-flex">
-                        <svg
-                          class="w-100"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                      <!-- /구매 menu row-->
+
+                      <!-- 계약관리 menu row-->
+                      <div
+                        class="col-auto me-4 mb-4 me-lg-0 mb-lg-0 col-lg-4 d-flex align-items-start"
+                      >
+                        <span
+                          class="f-w-16 d-block text-primary me-4 d-none d-lg-flex"
                         >
-                          <circle cx="18" cy="18" r="3"></circle>
-                          <circle cx="6" cy="6" r="3"></circle>
-                          <path opacity=".4" d="M13 6h3a2 2 0 0 1 2 2v7"></path>
-                          <line opacity=".4" x1="6" y1="9" x2="6" y2="21"></line>
-                        </svg>
-                      </span>
-                      <div class="position-relative">
-                        <h6 class="dropdown-heading">계약관리 </h6>
-                        <p class="text-muted">
-                          계약의 모든 프로세스를 지원하고, 전자 인장 날인과 연계를 통해 계약의 A to Z를 지원합니다.
-                        </p>
-                        <a href="./contract.html" class="fw-medium fs-7 text-decoration-none link-cover"
-                          >더 보기 &rarr;</a
-                        >
+                          <svg
+                            class="w-100"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <circle cx="18" cy="18" r="3"></circle>
+                            <circle cx="6" cy="6" r="3"></circle>
+                            <path
+                              opacity=".4"
+                              d="M13 6h3a2 2 0 0 1 2 2v7"
+                            ></path>
+                            <line
+                              opacity=".4"
+                              x1="6"
+                              y1="9"
+                              x2="6"
+                              y2="21"
+                            ></line>
+                          </svg>
+                        </span>
+                        <div class="position-relative">
+                          <h6 class="dropdown-heading">계약관리</h6>
+                          <p class="text-muted">
+                            계약의 모든 프로세스를 지원하고, 전자 인장 날인과
+                            연계를 통해 계약의 A to Z를 지원합니다.
+                          </p>
+                          <a
+                            href="./contract.html"
+                            class="fw-medium fs-7 text-decoration-none link-cover"
+                            >더 보기 &rarr;</a
+                          >
+                        </div>
                       </div>
-                    </div>
-                    <!-- /계약관리 menu row-->
+                      <!-- /계약관리 menu row-->
                     </div>
                     <div class="row py-lg-4 gx-8">
-                  
                       <!-- 전자인장 menu row-->
                       <div
-                      class="col-auto me-4 mb-4 me-lg-0 mb-lg-0 col-lg-4 d-flex align-items-start"
-                    >
-                      <span class="f-w-16 d-block text-primary me-4 d-none d-lg-flex">
-                        <svg
-                          class="w-100"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                        class="col-auto me-4 mb-4 me-lg-0 mb-lg-0 col-lg-4 d-flex align-items-start"
+                      >
+                        <span
+                          class="f-w-16 d-block text-primary me-4 d-none d-lg-flex"
                         >
-                          <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
-                          <polyline points="2 17 12 22 22 17"></polyline>
-                          <polyline opacity=".4" points="2 12 12 17 22 12"></polyline>
-                        </svg>
-                      </span>
-                      <div class="position-relative">
-                        <h6 class="dropdown-heading">전자인장</h6>
-                        <p class="text-muted">
-                          기업에서 오프라인으로 관리하는 모든 인감(법인 인감, 사용 인감) 사용을 
-                          전자 인장을 통해 관리합니다.
-                        </p>
-                        <a href="./stamp.html" class="fw-medium fs-7 text-decoration-none link-cover"
-                          >더 보기 &rarr;</a
-                        >
+                          <svg
+                            class="w-100"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <polygon
+                              points="12 2 2 7 12 12 22 7 12 2"
+                            ></polygon>
+                            <polyline points="2 17 12 22 22 17"></polyline>
+                            <polyline
+                              opacity=".4"
+                              points="2 12 12 17 22 12"
+                            ></polyline>
+                          </svg>
+                        </span>
+                        <div class="position-relative">
+                          <h6 class="dropdown-heading">전자인장</h6>
+                          <p class="text-muted">
+                            기업에서 오프라인으로 관리하는 모든 인감(법인 인감,
+                            사용 인감) 사용을 전자 인장을 통해 관리합니다.
+                          </p>
+                          <a
+                            href="./stamp.html"
+                            class="fw-medium fs-7 text-decoration-none link-cover"
+                            >더 보기 &rarr;</a
+                          >
+                        </div>
                       </div>
-                    </div>
-                    <!-- /menu row-->
-                  
-                    <!-- e문서 menu row-->
-                    <div
-                      class="col-auto me-4 mb-4 me-lg-0 mb-lg-0 col-lg-4 d-flex align-items-start"
-                    >
-                      <span class="f-w-16 d-block text-primary me-4 d-none d-lg-flex">
-                        <svg
-                          class="w-100"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
-                          <rect opacity=".3" x="9" y="9" width="6" height="6"></rect>
-                          <line x1="9" y1="1" x2="9" y2="4"></line>
-                          <line x1="15" y1="1" x2="15" y2="4"></line>
-                          <line x1="9" y1="20" x2="9" y2="23"></line>
-                          <line x1="15" y1="20" x2="15" y2="23"></line>
-                          <line x1="20" y1="9" x2="23" y2="9"></line>
-                          <line x1="20" y1="14" x2="23" y2="14"></line>
-                          <line x1="1" y1="9" x2="4" y2="9"></line>
-                          <line x1="1" y1="14" x2="4" y2="14"></line>
-                        </svg>
-                      </span>
-                      <div class="position-relative">
-                        <h6 class="dropdown-heading text-lowercase">e문서</h6>
-                        <p class="text-muted">
-                          복잡한 각종 주요 문서를 등급별로 구분하여 쉽고 빠르게
-                  문서를 운영, 관리하는 업무 툴을 제공합니다.
-                  
-                        </p>
-                        <a href="./document.html" class="fw-medium fs-7 text-decoration-none link-cover"
-                          >더 보기 &rarr;</a
-                        >
-                      </div>
-                    </div>
-                    <!-- / e문서 menu row-->
-                  
-                    <!-- 워크 플로 menu row-->
-                    <div
-                      class="col-auto me-4 mb-4 me-lg-0 mb-lg-0 col-lg-4 d-flex align-items-start"
-                    >
-                      <span class="f-w-16 d-block text-primary me-4 d-none d-lg-flex">
-                        <svg
-                          class="w-100"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          <circle cx="18" cy="18" r="3"></circle>
-                          <circle cx="6" cy="6" r="3"></circle>
-                          <path opacity=".4" d="M13 6h3a2 2 0 0 1 2 2v7"></path>
-                          <line opacity=".4" x1="6" y1="9" x2="6" y2="21"></line>
-                        </svg>
-                      </span>
-                      <div class="position-relative">
-                        <h6 class="dropdown-heading">워크 플로
-                        </h6>
-                        <p class="text-muted">
-                          사용이 편리한 직관적 UI를 통해  체계적인 업무 프로세스 지원합니다.
-                  
-                        </p>
-                        <a href="./workflow.html" class="fw-medium fs-7 text-decoration-none link-cover"
-                          >더 보기 &rarr;</a
-                        >
-                      </div>
-                    </div>
-                    <!-- / 워크플로 menu row-->
-                    </div>
-                      <!-- 일반 총무 menu row-->
+                      <!-- /menu row-->
+
+                      <!-- e문서 menu row-->
                       <div
+                        class="col-auto me-4 mb-4 me-lg-0 mb-lg-0 col-lg-4 d-flex align-items-start"
+                      >
+                        <span
+                          class="f-w-16 d-block text-primary me-4 d-none d-lg-flex"
+                        >
+                          <svg
+                            class="w-100"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <rect
+                              x="4"
+                              y="4"
+                              width="16"
+                              height="16"
+                              rx="2"
+                              ry="2"
+                            ></rect>
+                            <rect
+                              opacity=".3"
+                              x="9"
+                              y="9"
+                              width="6"
+                              height="6"
+                            ></rect>
+                            <line x1="9" y1="1" x2="9" y2="4"></line>
+                            <line x1="15" y1="1" x2="15" y2="4"></line>
+                            <line x1="9" y1="20" x2="9" y2="23"></line>
+                            <line x1="15" y1="20" x2="15" y2="23"></line>
+                            <line x1="20" y1="9" x2="23" y2="9"></line>
+                            <line x1="20" y1="14" x2="23" y2="14"></line>
+                            <line x1="1" y1="9" x2="4" y2="9"></line>
+                            <line x1="1" y1="14" x2="4" y2="14"></line>
+                          </svg>
+                        </span>
+                        <div class="position-relative">
+                          <h6 class="dropdown-heading text-lowercase">e문서</h6>
+                          <p class="text-muted">
+                            복잡한 각종 주요 문서를 등급별로 구분하여 쉽고
+                            빠르게 문서를 운영, 관리하는 업무 툴을 제공합니다.
+                          </p>
+                          <a
+                            href="./document.html"
+                            class="fw-medium fs-7 text-decoration-none link-cover"
+                            >더 보기 &rarr;</a
+                          >
+                        </div>
+                      </div>
+                      <!-- / e문서 menu row-->
+
+                      <!-- 워크 플로 menu row-->
+                      <div
+                        class="col-auto me-4 mb-4 me-lg-0 mb-lg-0 col-lg-4 d-flex align-items-start"
+                      >
+                        <span
+                          class="f-w-16 d-block text-primary me-4 d-none d-lg-flex"
+                        >
+                          <svg
+                            class="w-100"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <circle cx="18" cy="18" r="3"></circle>
+                            <circle cx="6" cy="6" r="3"></circle>
+                            <path
+                              opacity=".4"
+                              d="M13 6h3a2 2 0 0 1 2 2v7"
+                            ></path>
+                            <line
+                              opacity=".4"
+                              x1="6"
+                              y1="9"
+                              x2="6"
+                              y2="21"
+                            ></line>
+                          </svg>
+                        </span>
+                        <div class="position-relative">
+                          <h6 class="dropdown-heading">워크 플로</h6>
+                          <p class="text-muted">
+                            사용이 편리한 직관적 UI를 통해 체계적인 업무
+                            프로세스 지원합니다.
+                          </p>
+                          <a
+                            href="./workflow.html"
+                            class="fw-medium fs-7 text-decoration-none link-cover"
+                            >더 보기 &rarr;</a
+                          >
+                        </div>
+                      </div>
+                      <!-- / 워크플로 menu row-->
+                    </div>
+                    <!-- 일반 총무 menu row-->
+                    <div
                       class="col-auto me-4 mb-4 me-lg-0 mb-lg-0 col-lg-4 d-flex align-items-start"
                     >
-                      <span class="f-w-16 d-block text-primary me-4 d-none d-lg-flex">
+                      <span
+                        class="f-w-16 d-block text-primary me-4 d-none d-lg-flex"
+                      >
                         <svg
                           class="w-100"
                           xmlns="http://www.w3.org/2000/svg"
@@ -413,15 +491,24 @@
                           <circle cx="18" cy="18" r="3"></circle>
                           <circle cx="6" cy="6" r="3"></circle>
                           <path opacity=".4" d="M13 6h3a2 2 0 0 1 2 2v7"></path>
-                          <line opacity=".4" x1="6" y1="9" x2="6" y2="21"></line>
+                          <line
+                            opacity=".4"
+                            x1="6"
+                            y1="9"
+                            x2="6"
+                            y2="21"
+                          ></line>
                         </svg>
                       </span>
                       <div class="position-relative">
                         <h6 class="dropdown-heading">일반 총무</h6>
                         <p class="text-muted">
-                          루틴한 업무를 원스톱으로 처리 할 수 있는 프로세스를 지원합니다.
+                          루틴한 업무를 원스톱으로 처리 할 수 있는 프로세스를
+                          지원합니다.
                         </p>
-                        <a href="./administration.html" class="fw-medium fs-7 text-decoration-none link-cover"
+                        <a
+                          href="./administration.html"
+                          class="fw-medium fs-7 text-decoration-none link-cover"
                           >더 보기 &rarr;</a
                         >
                       </div>
@@ -444,7 +531,10 @@
             </li>
           </ul>
           <div class="d-none d-lg-flex">
-            <a href="#" class="btn btn-link text-muted border rounded" role="button"
+            <a
+              href="#"
+              class="btn btn-link text-muted border rounded"
+              role="button"
               >무료체험신청</a
             >
             <a href="#" class="btn btn-primary ms-2" role="button">로그인</a>
@@ -455,221 +545,293 @@
     <!-- / Navbar-->
 
     <!-- Main Section-->
-    <main class="mt-0 ">
+    <main class="mt-0">
+      <!-- Page Title-->
+      <header class="pt-10">
+        <div class="container">
+          <div
+            class="text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto position-relative z-index-20"
+          >
+            <h1 class="display-3 fw-bold mb-3">와플팀을 소개합니다</h1>
+            <p class="text-muted lead mb-3">
+              기업과 구성원 모두 지금보다 더 편리하고 더 똑똑하게 일할 수
+              있도록, <br />
+              환경 변화를 만들어 가는 팀입니다.
+            </p>
+          </div>
+        </div>
+      </header>
+      <!-- / Page Title-->
 
-        <!-- Page Title-->
-        <header class="pt-10">
-            <div class="container">
-                <div class="text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto position-relative z-index-20">
-                    <h1 class="display-3 fw-bold mb-3">와플팀을 소개합니다</h1>
-                    <p class="text-muted lead mb-3">기업과 구성원 모두 지금보다 더 편리하고 더 똑똑하게 일할 수 있도록, <br />
-                        환경 변화를 만들어 가는 팀입니다.
-                        </p>
-                </div>
-            </div>
-        </header>
-        <!-- / Page Title-->
-
-        <!-- Page Content Goes Here -->
-        <div class="container position-relative z-index-20 py-7">
-
-            <!-- About Us Images-->
+      <!-- Page Content Goes Here -->
+      <div class="container position-relative z-index-20 py-7">
+        <!-- About Us Images-->
+        <div class="row g-3">
+          <!-- Images Left Side-->
+          <div class="col-12 col-lg-6 d-none d-lg-block">
             <div class="row g-3">
-                <!-- Images Left Side-->
-                <div class="col-12 col-lg-6 d-none d-lg-block">
-                    <div class="row g-3">
-                        <div class="col-12 col-md-6">
-                            <picture>
-                                <img class="img-fluid rounded shadow-sm "
-                                    src="./assets/images/about-1.jpg"
-                                    alt="HTML Bootstrap Template by Pixel Rocket">
-                            </picture>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="row gy-3">
-                                <div class="col-12">
-                                    <picture>
-                                        <img class="img-fluid rounded shadow-sm"
-                                            src="./assets/images/about-2.jpg"
-                                            alt="HTML Bootstrap Template by Pixel Rocket">
-                                    </picture>
-                                </div>
-                                <div class="col-12">
-                                    <picture>
-                                        <img class="img-fluid rounded shadow-sm grayscale"
-                                            src="./assets/images/about-3.jpg"
-                                            alt="HTML Bootstrap Template by Pixel Rocket">
-                                    </picture>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /Images Left Side-->
-                <!-- Images Right Side-->
-                <div class="col-12 col-lg-6">
-                    <div class="row ">
-                        <div class="col-12 d-none d-lg-block">
-                            <picture>
-                                <img class="img-fluid rounded shadow-sm"
-                                    src="./assets/images/about-4.jpg"
-                                    alt="HTML Bootstrap Template by Pixel Rocket">
-                            </picture>
-                        </div>
-                    
-                    </div>
-                </div>
-                <!-- Images Right Side-->
-                <div class="text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto">
-                    <p class="fs-5 text-muted lead mb-0">기업과 구성원의 높은 편리성과 Value-up을 위한<br/> 경영지원 운영·관리 플랫폼을 제공 합니다.
-                    </p>
-                </div>
-            </div>
-            <!-- About Us Images-->
-
-            <!-- Company Summary-->
-             
-            <!-- Company Summary-->
-
-            <!-- Company Story-->
-            <div class="py-8 row gx-8 align-items-center">
-                <div class="col-12 col-lg-6">
-                    <p class="mb-3 small fw-bolder tracking-wider text-uppercase text-primary">GreatBee</p>
-                    <h2 class="display-5 fw-bold mb-6">Our Mission</h2>
-                    <p>기업은 비즈니스를 통해 수익을 창출하고, 규모를 성장시키는 데 있습니다.
-                        하지만 기업이 비즈니스를 통해 성과를 달성하고, 더 나은 성장을 하기 위해서는
-                        여러 가지 필수 요소들이 끊임없이 발생합니다. 회사의 레귤러 한 오퍼레이션 업무를
-                        처리하기 위해서는 많은 리소스가 필요하고, 불편하고, 시간이 오래 걸립니다.
-                        </p>
-                    <p>하지만, 이러한 루틴 한 필수 요소들을 체계적이고 효율적인 플랫폼을 통해 해결하고,
-                        그 시간을 조금 더 의미 있고 가치 있는 일에 사용한다면 어떨까요?
-                        와플 팀은 누구나 자신의 업무를 체계화하고, Value-up 할 수 있는 플랫폼을 제공하는 것
-                        그것이 우주최강 와플 팀의 미션입니다.
-                        </p>
-                </div>
-                <div class="col-12 col-lg-6">
+              <div class="col-12 col-md-6">
+                <picture>
+                  <img
+                    class="img-fluid rounded shadow-sm"
+                    src="./assets/images/about-1.jpg"
+                    alt="HTML Bootstrap Template by Pixel Rocket"
+                  />
+                </picture>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="row gy-3">
+                  <div class="col-12">
                     <picture>
-                        <img class="img-fluid rounded shadow-sm"
-                            src="./assets/images/about-7.jpg"
-                            alt="HTML Bootstrap Template by Pixel Rocket">
+                      <img
+                        class="img-fluid rounded shadow-sm"
+                        src="./assets/images/about-2.jpg"
+                        alt="HTML Bootstrap Template by Pixel Rocket"
+                      />
                     </picture>
+                  </div>
+                  <div class="col-12">
+                    <picture>
+                      <img
+                        class="img-fluid rounded shadow-sm grayscale"
+                        src="./assets/images/about-3.jpg"
+                        alt="HTML Bootstrap Template by Pixel Rocket"
+                      />
+                    </picture>
+                  </div>
                 </div>
+              </div>
             </div>
-            <!-- /Company Story-->
+          </div>
+          <!-- /Images Left Side-->
+          <!-- Images Right Side-->
+          <div class="col-12 col-lg-6">
+            <div class="row">
+              <div class="col-12 d-none d-lg-block">
+                <picture>
+                  <img
+                    class="img-fluid rounded shadow-sm"
+                    src="./assets/images/about-4.jpg"
+                    alt="HTML Bootstrap Template by Pixel Rocket"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+          <!-- Images Right Side-->
+          <div class="text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto">
+            <p class="fs-5 text-muted lead mb-0">
+              기업과 구성원의 높은 편리성과 Value-up을 위한<br />
+              경영지원 운영·관리 플랫폼을 제공 합니다.
+            </p>
+          </div>
+        </div>
+        <!-- About Us Images-->
 
-            <!-- Company Leadership-->
-            <div class="py-8">
-                <h2 class="display-5 fw-bold mb-4 text-center">Core Value</h2>
-                <p class="fs-5 text-muted lead mb-6 text-center">WAFFLE은 누구나 자신의 업무를 체계화하고, Value-Up 할 수 있습니다
+        <!-- Company Summary-->
 
-                </p>   
-                <div class="row g-4">
-                        <!-- Single Team-->
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <div class="card rounded-5 shadow-lg h-100 ">
-                                <div class="card-body d-flex align-items-center flex-column justify-content-center text-center p-4">
-                                    <picture class="avatar bg-primary rounded-circle">
-                                        <img class="w-75 mt-2"
-                                            src="./assets/images/CustomerObsession.png"
-                                            alt="">
-                                    </picture>
-                                    <p class="lead fw-bolder mb-0 mt-4">Customer Obsession</p>
-                                    <p class="text-primary small fw-bold mb-4">유저에게 집착합니다</p>
-                                    <p class="text-muted fs-8">유저가 느끼는 불편함, 그리고 미처 인지하지 못한 Needs 까지 찾아내고 고민합니다. 항상 UX 관점에서 생각하고, 유저가 최고의 효용적 가치를 얻을 수 있도록 행동 합니다. 이를 위해 유저에게 집착해야 합니다. </p>
-                                    <!-- <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
+        <!-- Company Summary-->
+
+        <!-- Company Story-->
+        <div class="py-8 row gx-8 align-items-center">
+          <div class="col-12 col-lg-6">
+            <p
+              class="mb-3 small fw-bolder tracking-wider text-uppercase text-primary"
+            >
+              GreatBee
+            </p>
+            <h2 class="display-5 fw-bold mb-6">Our Mission</h2>
+            <p>
+              기업은 비즈니스를 통해 수익을 창출하고, 규모를 성장시키는 데
+              있습니다. 하지만 기업이 비즈니스를 통해 성과를 달성하고, 더 나은
+              성장을 하기 위해서는 여러 가지 필수 요소들이 끊임없이 발생합니다.
+              회사의 레귤러 한 오퍼레이션 업무를 처리하기 위해서는 많은 리소스가
+              필요하고, 불편하고, 시간이 오래 걸립니다.
+            </p>
+            <p>
+              하지만, 이러한 루틴 한 필수 요소들을 체계적이고 효율적인 플랫폼을
+              통해 해결하고, 그 시간을 조금 더 의미 있고 가치 있는 일에
+              사용한다면 어떨까요? 와플 팀은 누구나 자신의 업무를 체계화하고,
+              Value-up 할 수 있는 플랫폼을 제공하는 것 그것이 우주최강 와플 팀의
+              미션입니다.
+            </p>
+          </div>
+          <div class="col-12 col-lg-6">
+            <picture>
+              <img
+                class="img-fluid rounded shadow-sm"
+                src="./assets/images/about-7.jpg"
+                alt="HTML Bootstrap Template by Pixel Rocket"
+              />
+            </picture>
+          </div>
+        </div>
+        <!-- /Company Story-->
+
+        <!-- Company Leadership-->
+        <div class="py-8">
+          <h2 class="display-5 fw-bold mb-4 text-center">Core Value</h2>
+          <p class="fs-5 text-muted lead mb-6 text-center">
+            WAFFLE은 누구나 자신의 업무를 체계화하고, Value-Up 할 수 있습니다
+          </p>
+          <div class="row g-4">
+            <!-- Single Team-->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card rounded-5 shadow-lg h-100">
+                <div
+                  class="card-body d-flex align-items-center flex-column justify-content-center text-center p-4"
+                >
+                  <picture class="avatar bg-primary rounded-circle">
+                    <img
+                      class="w-75 mt-2"
+                      src="./assets/images/CustomerObsession.png"
+                      alt=""
+                    />
+                  </picture>
+                  <p class="lead fw-bolder mb-0 mt-4">Customer Obsession</p>
+                  <p class="text-primary small fw-bold mb-4">
+                    유저에게 집착합니다
+                  </p>
+                  <p class="text-muted fs-8">
+                    유저가 느끼는 불편함, 그리고 미처 인지하지 못한 Needs 까지
+                    찾아내고 고민합니다. 항상 UX 관점에서 생각하고, 유저가
+                    최고의 효용적 가치를 얻을 수 있도록 행동 합니다. 이를 위해
+                    유저에게 집착해야 합니다.
+                  </p>
+                  <!-- <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
                                         <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-linkedin-box-fill ri-2x"></i></a></li>
                                         <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-facebook-box-fill ri-2x"></i></a></li>
                                         <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-twitter-fill ri-2x"></i></a></li>
                                     </ul> -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- / Single Team-->
-                        <!-- Single Team-->
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <div class="card rounded-5 shadow-lg h-100 ">
-                                <div class="card-body d-flex align-items-center flex-column justify-content-center text-center p-4">
-                                    <picture class="avatar bg-primary rounded-circle">
-                                        <img class="w-75 mt-2"
-                                            src="./assets/images/Agile.png"
-                                            alt="">
-                                    </picture>
-                                    <p class="lead fw-bolder mb-0 mt-4">Agile</p>
-                                    <p class="text-primary small fw-bold mb-4">신속하게 움직입니다</p>
-                                    <p class="text-muted fs-8">우리는 Lean 하게 적용하고 Fast Turn Making 합니다. 이를 통해 유저의 Needs를 선제적으로 충족 시킬수 있는 솔루션을 제공해야 합니다. 신속하게 식별하고 개선해 나감으로써 최고의 서비스를 제공할 수 있습니다.                           </p>
-                                    <!-- <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
-                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-linkedin-box-fill ri-2x"></i></a></li>
-                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-facebook-box-fill ri-2x"></i></a></li>
-                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-twitter-fill ri-2x"></i></a></li>
-                                    </ul> -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- / Single Team-->
-                        <!-- Single Team-->
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <div class="card rounded-5 shadow-lg h-100 ">
-                                <div class="card-body d-flex align-items-center flex-column justify-content-center text-center p-4">
-                                    <picture class="avatar bg-primary rounded-circle">
-                                        <img class="w-75 mt-2"
-                                            src="./assets/images/AblyInsight.png"
-                                            alt="">
-                                    </picture>
-                                    <p class="lead fw-bolder mb-0 mt-4">Ably Insight</p>
-                                    <p class="text-primary small fw-bold mb-4">선구적 혜안을 추구합니다</p>
-                                    <p class="text-muted fs-8">빠르게 변화하는 환경에서 Regular 함의 반복보다 새로운 상황을 마주할 확률이 높습니다. 이를 위해 Flexible 한 문제 해결 능력을 키워 나가는 것이 중요합니다. 선구적 혜안을 키우고 이를 통해 지속적 성장을 추구 합니다</p>
-                                    <!-- <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
-                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-linkedin-box-fill ri-2x"></i></a></li>
-                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-facebook-box-fill ri-2x"></i></a></li>
-                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-twitter-fill ri-2x"></i></a></li>
-                                    </ul> -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- / Single Team-->
-                        <!-- Single Team-->
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <div class="card rounded-5 shadow-lg h-100 ">
-                                <div class="card-body d-flex align-items-center flex-column justify-content-center text-center p-4">
-                                    <picture class="avatar bg-primary rounded-circle">
-                                        <img class="w-75 mt-2"
-                                            src="./assets/images/Communication.png"
-                                            alt="">
-                                    </picture>
-                                    <p class="lead fw-bolder mb-0 mt-4">Communication</p>
-                                    <p class="text-primary small fw-bold mb-4">수평적으로 소통합니다</p>
-                                    <p class="text-muted fs-8">소통은 수평적으로, 의사결정은 수직적으로 이루어집니다. 모두가 수평적인 관계에서 자신의 의견을 피력하고, 그에 따른 책임은 최종 의사 결정권자에게 있습니다. 이러한 소통 방식을 통해 심리적 안전감을 기반으로 더욱 창의적인 ideation을 합니다. </p>
-                                    <!-- <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
-                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-linkedin-box-fill ri-2x"></i></a></li>
-                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-facebook-box-fill ri-2x"></i></a></li>
-                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-twitter-fill ri-2x"></i></a></li>
-                                    </ul> -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- / Single Team-->
                 </div>
+              </div>
             </div>
-
-            <!-- / Company Leadership-->
-
-            <!-- Careers-->
-            <div class="d-flex justify-content-center my-5">
-                <div class="rounded-pill border px-5 py-3 text-muted d-flex align-items-center">
-                    저희는 채용 중입니다 <a href="#" class="fw-bold d-flex align-items-center ms-2">함께 일하고 싶으면 지원해주세요! <i class="ri-arrow-right-line ms-1"></i></a>
+            <!-- / Single Team-->
+            <!-- Single Team-->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card rounded-5 shadow-lg h-100">
+                <div
+                  class="card-body d-flex align-items-center flex-column justify-content-center text-center p-4"
+                >
+                  <picture class="avatar bg-primary rounded-circle">
+                    <img
+                      class="w-75 mt-2"
+                      src="./assets/images/Agile.png"
+                      alt=""
+                    />
+                  </picture>
+                  <p class="lead fw-bolder mb-0 mt-4">Agile</p>
+                  <p class="text-primary small fw-bold mb-4">
+                    신속하게 움직입니다
+                  </p>
+                  <p class="text-muted fs-8">
+                    우리는 Lean 하게 적용하고 Fast Turn Making 합니다. 이를 통해
+                    유저의 Needs를 선제적으로 충족 시킬수 있는 솔루션을 제공해야
+                    합니다. 신속하게 식별하고 개선해 나감으로써 최고의 서비스를
+                    제공할 수 있습니다.
+                  </p>
+                  <!-- <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
+                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-linkedin-box-fill ri-2x"></i></a></li>
+                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-facebook-box-fill ri-2x"></i></a></li>
+                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-twitter-fill ri-2x"></i></a></li>
+                                    </ul> -->
                 </div>
+              </div>
             </div>
-            
-            <!-- / Careers-->
+            <!-- / Single Team-->
+            <!-- Single Team-->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card rounded-5 shadow-lg h-100">
+                <div
+                  class="card-body d-flex align-items-center flex-column justify-content-center text-center p-4"
+                >
+                  <picture class="avatar bg-primary rounded-circle">
+                    <img
+                      class="w-75 mt-2"
+                      src="./assets/images/AblyInsight.png"
+                      alt=""
+                    />
+                  </picture>
+                  <p class="lead fw-bolder mb-0 mt-4">Ably Insight</p>
+                  <p class="text-primary small fw-bold mb-4">
+                    선구적 혜안을 추구합니다
+                  </p>
+                  <p class="text-muted fs-8">
+                    빠르게 변화하는 환경에서 Regular 함의 반복보다 새로운 상황을
+                    마주할 확률이 높습니다. 이를 위해 Flexible 한 문제 해결
+                    능력을 키워 나가는 것이 중요합니다. 선구적 혜안을 키우고
+                    이를 통해 지속적 성장을 추구 합니다
+                  </p>
+                  <!-- <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
+                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-linkedin-box-fill ri-2x"></i></a></li>
+                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-facebook-box-fill ri-2x"></i></a></li>
+                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-twitter-fill ri-2x"></i></a></li>
+                                    </ul> -->
+                </div>
+              </div>
+            </div>
+            <!-- / Single Team-->
+            <!-- Single Team-->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card rounded-5 shadow-lg h-100">
+                <div
+                  class="card-body d-flex align-items-center flex-column justify-content-center text-center p-4"
+                >
+                  <picture class="avatar bg-primary rounded-circle">
+                    <img
+                      class="w-75 mt-2"
+                      src="./assets/images/Communication.png"
+                      alt=""
+                    />
+                  </picture>
+                  <p class="lead fw-bolder mb-0 mt-4">Communication</p>
+                  <p class="text-primary small fw-bold mb-4">
+                    수평적으로 소통합니다
+                  </p>
+                  <p class="text-muted fs-8">
+                    소통은 수평적으로, 의사결정은 수직적으로 이루어집니다.
+                    모두가 수평적인 관계에서 자신의 의견을 피력하고, 그에 따른
+                    책임은 최종 의사 결정권자에게 있습니다. 이러한 소통 방식을
+                    통해 심리적 안전감을 기반으로 더욱 창의적인 ideation을
+                    합니다.
+                  </p>
+                  <!-- <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
+                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-linkedin-box-fill ri-2x"></i></a></li>
+                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-facebook-box-fill ri-2x"></i></a></li>
+                                        <li class="mx-2"><a href="#" class="text-decoration-none"><i class="ri-twitter-fill ri-2x"></i></a></li>
+                                    </ul> -->
+                </div>
+              </div>
+            </div>
+            <!-- / Single Team-->
+          </div>
         </div>
 
-        <!-- /Page Content -->
+        <!-- / Company Leadership-->
+
+        <!-- Careers-->
+        <div class="d-flex justify-content-center my-5">
+          <div
+            class="rounded-pill border px-5 py-3 text-muted d-flex align-items-center"
+          >
+            저희는 채용 중입니다
+            <a href="#" class="fw-bold d-flex align-items-center ms-2"
+              >함께 일하고 싶으면 지원해주세요!
+              <i class="ri-arrow-right-line ms-1"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- / Careers-->
+      </div>
+
+      <!-- /Page Content -->
     </main>
     <!-- / Main Section-->
 
     <!-- Footer -->
     <!-- Footer-->
-    <footer class="bg-dark pt-0 pb-8  ">
+    <footer class="bg-dark pt-0 pb-8">
       <div class="bg-primary pt-10 w-100">
         <!-- Free trial -->
         <div class="border-bottom border-white-10 pb-7">
@@ -687,7 +849,7 @@
         </div>
         <!-- Free trial-->
       </div>
-    
+
       <!-- Footer Menus-->
       <div class="container pt-7">
         <div class="d-flex justify-content-between align-items-start">
@@ -792,7 +954,7 @@
               </ul>
             </div>
             <!-- /Menu-->
-    
+
             <!-- Menu-->
             <div class="w-100 w-sm-50 w-lg-auto mb-4 mb-lg-0">
               <h6
@@ -811,7 +973,7 @@
               </ul>
             </div>
             <!-- /Menu-->
-    
+
             <!-- Menu-->
             <div class="w-100 w-sm-50 w-lg-auto mb-4 mb-lg-0">
               <h6
@@ -863,7 +1025,7 @@
         </div>
       </div>
       <!-- Footer Menus-->
-    
+
       <!-- Footer bottom-->
       <div class="container">
         <div
@@ -872,10 +1034,10 @@
           <div
             class="d-flex flex-column align-items-lg-start align-items-sm-center"
           >
-          <div class="d-flex flex-row">
-            <span class="small text-white fw-bold mb-2 mb-md-1">
-              (주) 그레이트비</span
-            >
+            <div class="d-flex flex-row">
+              <span class="small text-white fw-bold mb-2 mb-md-1">
+                (주) 그레이트비</span
+              >
             </div>
             <div class="d-flex flex-row">
               <span class="small text-white fw-bold mb-2 mb-md-0 opacity-75">
@@ -884,8 +1046,10 @@
               <span class="small text-white mb-2 mb-md-0 opacity-75">
                 &nbsp; 771-87-02678</span
               >
-    
-              <div class="fw-bold block text-white opacity-75">&nbsp; | &nbsp;</div>
+
+              <div class="fw-bold block text-white opacity-75">
+                &nbsp; | &nbsp;
+              </div>
               <div class="d-flex flex-row">
                 <span class="small text-white fw-bold mb-2 mb-md-0 opacity-75"
                   >대표이사</span
@@ -902,7 +1066,9 @@
               <span class="small text-white mb-2 mb-md-0 opacity-75">
                 &nbsp; <a href="#" class="aline">biz@greatbee.co.kr</a></span
               >
-              <div class="fw-bold block text-white opacity-75">&nbsp; | &nbsp;</div>
+              <div class="fw-bold block text-white opacity-75">
+                &nbsp; | &nbsp;
+              </div>
               <div class="d-flex flex-row">
                 <span class="small text-white fw-bold mb-2 mb-md-0 opacity-75"
                   >기능 및 이용 문의</span
@@ -936,48 +1102,53 @@
       <!-- Footer bottom-->
     </footer>
     <!-- / Footer-->
-    
+
     <!-- Additional imports (modals, offcanvas)-->
     <!-- Modal Imports-->
     <!-- Video Modal Iframe-->
     <!-- Start Video Modal-->
-    <div class="modal fade modal-video"
-        id="videoIframeModal"
-        tabindex="-1"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <!-- Modal Content-->
-                <div class="modal-body p-0">
-                    <button type="button"
-                    class="btn btn-link text-decoration-none text-white opacity-75-hover transition-all position-absolute end-0 top-0 z-index-20"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"><i class="ri-close-fill"></i></button>
-    
-                    <!-- Plyr HTML-->
-                    <div id="player" class="modal-video-player plyr__video-embed">
-                        <iframe
-                        src=""
-                        allowfullscreen
-                        allowtransparency
-                        allow="autoplay"
-                      ></iframe>
-                    </div>
-                    <!--/ Plyr HTML-->
-                </div>
-                <!-- / Modal Content-->
+    <div
+      class="modal fade modal-video"
+      id="videoIframeModal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <!-- Modal Content-->
+          <div class="modal-body p-0">
+            <button
+              type="button"
+              class="btn btn-link text-decoration-none text-white opacity-75-hover transition-all position-absolute end-0 top-0 z-index-20"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="ri-close-fill"></i>
+            </button>
+
+            <!-- Plyr HTML-->
+            <div id="player" class="modal-video-player plyr__video-embed">
+              <iframe
+                src=""
+                allowfullscreen
+                allowtransparency
+                allow="autoplay"
+              ></iframe>
             </div>
+            <!--/ Plyr HTML-->
+          </div>
+          <!-- / Modal Content-->
         </div>
+      </div>
     </div>
     <!--/ Video Modal --><!-- / Additional imports-->
     <!-- / Footer-->
 
     <!-- Theme JS -->
     <!-- Vendor JS -->
-    <script src="./assets/js/vendor.bundle.js"></script>
-    
-    <!-- Theme JS -->
-    <script src="./assets/js/theme.bundle.js"></script>
-</body>
+    <script src="/assets/js/vendor.bundle.js"></script>
 
+    <!-- Theme JS -->
+    <script src="/assets/js/theme.bundle.js"></script>
+  </body>
 </html>
